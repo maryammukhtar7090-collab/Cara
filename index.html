@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>Ecommerce website</title>
+</head>
+<body>
+<!-- /////////////////// header //////////////// -->
+    <section id="header">
+        <a href="#"><img src="img/logo (4).png"></a>
+        <div>
+            <ul id="navbar">
+                <li><a class="active">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                   <a href="#" class="cart">
+                <i id="lg-bag" class="fa-solid fa-bag-shopping" style="color: rgb(59, 46, 46);"></i>
+                 <span class="cart-item-count"></span>
+                </a>
+                   <!-- <li id="lg-bag"> <a href="card.html"><img src="img/shopping-bag.png" height="24px" width="24px"></a></li> -->
+                   <a  id="close" href="#"><i class="far fa-times"></i></a>
+                   
+            </ul>
+        </div>
+        <div class="mobile">
+          
+           <a class="bg" href="card.html"><img src="img/shopping-bag.png" height="24px" width="24px"></a>
+        
+           <i id="bar" class="fas fa-outdent"></i>
+            
+        </div>
+        
+    </section>
+     <div class="cart-sidbar">
+        <h2 class="cart-title">Your Cart</h2>
+        <div class="cart-content">
+            <!-- <div class="cart-box">
+                <img class="cart-img" src="img/product/f2.jpg">
+                <div class="cart-detail">
+                    <h2 class="cart-product-title">Casual Black Polo</h2>
+                    <span class="cart-price">$100</span>
+                    <div class="cart-quantity">
+                        <button id="decrement">-</button>
+                        <span class="number">1</span>
+                         <button id="increment">+</button>
+                    </div>
+                </div>
+                <i class="fa-solid fa-trash cart-remove" style="color: rgb(59, 46, 46);"></i>
+            </div> -->
+        </div>
+<div class="total">
+    <div class="total-title">Total</div>
+    <div class="total-price">$0</div>
+
+</div>
+<button class="btn-buy">Buy Now</button>
+<i class="fa-solid fa-xmark" id="cart-close" style="color: rgb(59, 46, 46);"></i>
+
+       </div>
+<!-- //////////////////////// hero-section ////////////// -->
+    <section id="hero">
+  <h4>Trade-in-offer</h4>
+  <h2>Super value deals</h2>
+  <h1>On all products</h1>
+  <p>Save more with coupons & up to 70% off!</p>
+  <button>Shop Now</button>
+    </section>
+    <!-- ////////////// section 1 ////////// -->
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="img/f1.png" alt="">
+            <h6>Free Shipping </h6>
+        </div>
+         <div class="fe-box">
+            <img src="img/f2.png" alt="">
+            <h6>Online Order</h6>
+        </div>
+         <div class="fe-box">
+            <img src="img/f3.png" alt="">
+            <h6>Save Money </h6>
+        </div>
+         <div class="fe-box">
+            <img src="img/f4.png" alt="">
+            <h6>Promotion </h6>
+        </div>
+         <div class="fe-box">
+            <img src="img/f5.png" alt="">
+            <h6>Happy Sell </h6>
+        </div>
+         <!-- <div class="fe-box">
+            <img src="img/f6.png" alt="">
+            <h6>Free Shipping </h6>
+        </div> -->
+    </section>
+    <!-- ///////////// section 2 /////////////// -->
+    <section id="product1" class="section-p1">
+        <h2>Featured Product</h2>
+        <p>Summer Collection New Modern Design</p>
+        <div class="pro-container">
+            <div class="pro" onclick="window.location.href='sproduct.html'">
+                <img src="img/product/f1.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                    </div>
+                      <h4>$78</h4>
+                </div>
+              <a class="cart"  href="#"><i class=" fa-solid fa-cart-shopping " ></i></a>
+            </div>
+           
+        
+        <!-- ///////  card 2 ////// -->
+      
+            <div class="pro" onclick="window.location.href='sproduct.html'">
+                <img src="img/product/f2.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                    </div>
+                      <h4>$78</h4>
+                </div>
+              <a class="cart"  href="#"><i class=" fa-solid fa-cart-shopping " ></i></a>
+            </div>
+  
+        <!-- /////// card-3 /////// -->
+          
+            <div class="pro" onclick="window.location.href='sproduct.html'">
+                <img src="img/product/f3.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                    </div>
+                      <h4>$78</h4>
+                </div>
+              <a class="cart"  href="#"><i class=" fa-solid fa-cart-shopping " ></i></a>
+            </div>
+           
+ 
+        <!-- ///////// card 4 ////// -->
+          
+            <div class="pro" onclick="window.location.href='sproduct.html'">
+                <img src="img/product/f4.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                    </div>
+                      <h4>$78</h4>
+                </div>
+              <a class="cart"  href="#"><i class=" fa-solid fa-cart-shopping " ></i></a>
+            </div>
+           
+    
+        <!-- /////////// card 5 ////////// -->
+     
+            <div class="pro" onclick="window.location.href='sproduct.html'">
+                <img src="img/product/f5.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                    </div>
+                      <h4>$78</h4>
+                </div>
+              <a class="cart"  href="#"><i class=" fa-solid fa-cart-shopping " ></i></a>
+            </div>
+           
+        
+        <!-- /////// card-6 ////// -->
+          
+            <div class="pro" onclick="window.location.href='sproduct.html'">
+                <img src="img/product/f6.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                    </div>
+                      <h4>$78</h4>
+                </div>
+              <a class="cart"  href="#"><i class=" fa-solid fa-cart-shopping " ></i></a>
+            </div>
+           
+
+        <!-- //////////// card 7 /////////// -->
+        
+            <div class="pro" onclick="window.location.href='sproduct.html'">
+                <img src="img/product/f7.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                    </div>
+                      <h4>$78</h4>
+                </div>
+              <a class="cart"  href="#"><i class=" fa-solid fa-cart-shopping " ></i></a>
+            </div>
+           
+     
+        <!-- //////////// card 8 //////////////// -->
+         
+            <div class="pro" onclick="window.location.href='sproduct.html'">
+                <img src="img/product/f8.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                    </div>
+                      <h4>$78</h4>
+                </div>
+              <a class="cart"  href="#"><i class=" fa-solid fa-cart-shopping " ></i></a>
+            </div>
+           
+       </section>
+       <!-- //////////////// section 3 //////////// -->
+        <section id="banner"  class="section-m1">
+            <h4>Repair Services</h4>
+            <h2>Up to<span>70% off</span>  - All T-Shirts & Accessories </h2>
+            <button class="normal">Explore More</button>
+        </section>
+        <!-- /////////////// section-4 ////////////// -->
+          <section id="product1" class="section-p1">
+       
+        <div class="pro-container">
+           
+
+        <!-- //////////// card 1 /////////// -->
+        
+            <div class="pro" onclick="window.location.href='sproduct.html'">
+                <img src="img/product/f7.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5 class="product-title">Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                    </div>
+                      <h4 class="price">$78</h4>
+                </div>
+              <a class="cart"  href="#"><i class="fa-solid fa-cart-shopping add-cart" ></i></a>
+             
+            </div>
+           
+     
+        <!-- //////////// card 2 //////////////// -->
+         
+            <div class="pro" onclick="window.location.href='sproduct.html'">
+                <img src="img/product/f8.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5 class="product-title">Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                    </div>
+                      <h4 class="price">$78</h4>
+                </div>
+               <a class="cart"  href="#"><i class="fa-solid fa-cart-shopping add-cart" ></i></a>
+           
+            </div>
+    
+     <!-- //////  cart-3 /////// -->
+            <div class="pro" onclick="window.location.href='sproduct.html'">
+                <img src="img/product/n1.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5 class="product-title">Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                    </div>
+                      <h4 class="price">$78</h4>
+                </div>
+               <a class="cart"  href="#"><i class="fa-solid fa-cart-shopping add-cart" ></i></a>
+             
+            </div>
+           
+        
+        <!-- ///////  card 4 ////// -->
+      
+            <div class="pro" onclick="window.location.href='sproduct.html'">
+                <img src="img/product/n2.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5 class="product-title">Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                    </div>
+                      <h4 class="price">$78</h4>
+                </div>
+               <a class="cart"  href="#"><i class="fa-solid fa-cart-shopping add-cart" ></i></a>
+              
+            </div>
+  
+        <!-- /////// card-5 /////// -->
+          
+            <div class="pro" onclick="window.location.href='sproduct.html'">
+                <img src="img/product/n3.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5 class="product-title">Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                    </div>
+                      <h4 class="price">$78</h4>
+                </div>
+               <a class="cart"  href="#"><i class="fa-solid fa-cart-shopping add-cart" ></i></a>
+               
+            </div>
+           
+ 
+        <!-- ///////// card 6 ////// -->
+          
+            <div class="pro" onclick="window.location.href='sproduct.html'">
+                <img src="img/product/n4.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5 class="product-title">Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                    </div>
+                      <h4 class="price">$78</h4>
+                </div>
+               <a class="cart"  href="#"><i class="fa-solid fa-cart-shopping add-cart" ></i></a>
+              
+            </div>
+           
+    
+        <!-- /////////// card 7 ////////// -->
+     
+            <div class="pro" onclick="window.location.href='sproduct.html'">
+                <img src="img/product/n5.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5 class="product-title">Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                    </div>
+                      <h4 class="price">$78</h4>
+                </div>
+                <a class="cart"  href="#"><i class="fa-solid fa-cart-shopping add-cart" ></i></a>
+               
+            </div>
+           
+        
+        <!-- /////// card-8 ////// -->
+          
+            <div class="pro" onclick="window.location.href='sproduct.html'">
+                <img src="img/product/n6.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5 class="product-title">Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                    </div>
+                      <h4 class="price">$78</h4>
+                </div>
+              <a class="cart"  href="#"><i class="fa-solid fa-cart-shopping add-cart" ></i></a>
+              
+            </div>
+           
+
+      
+           
+     
+      
+           
+       </section> 
+       <!-- ////////////// section 5 ///////////////// -->
+        <section id="sm-banner" class="section-p1">
+            <!-- //// box-1 //// -->
+          <div class="banner-box">
+            <h4>crazy deals</h4>
+            <h2>buy 1 get 1 free</h2>
+            <span>The best classic dress is on sale at cara</span>
+            <button class="white">Learn More</button>
+          </div>
+          <!-- ///// box-2 ///// -->
+           <div class="banner-box banner-box2">
+            <h4>spring/summer</h4>
+            <h2>upcomming season </h2>
+            <span>The best classic dress is on sale at cara</span>
+            <button class="white">Collection</button>
+          </div>
+        </section>
+        <!-- ///////////// section 6  ////////////////// -->
+         <section id="banner3">
+          <div class="banner-box">
+           
+            <h2>SEASONAL SALE </h2>
+            <h3>Winter Collection -50% oFF</h3>
+          </div>
+          <div class="banner-box banner-box2">
+           
+            <h2>NEW FOOTWEAR COLLECTION </h2>
+            <h3>Spring/Summer2026</h3>
+          </div>
+          <div class="banner-box banner-box3 ">
+           
+            <h2>T-SHIRTS</h2>
+            <h3>New Trendy Prints</h3>
+          </div>
+         </section>
+   <!-- ////////////////////// section 7 ///////////// -->
+    <section id="newsletter" class=" section-m1 section-p1" >
+      <div class="newstext">
+        <h4>Sign Up For Newsletter</h4>
+        <p>Get E-mail updates about over latest shop and <span>special offers.</span></p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your email address">
+        <button class="normal">Sign Up</button>
+      </div>
+    </section>
+    <footer class="section-p1">
+      <div class="col">
+      <img class="logo" src="img/logo (4).png" alt="">
+      <h4>Contact</h4>
+      <p><strong>Address: </strong>562 Wellington Road,Street 32, San Francisco</p>
+       <p><strong>Phone: </strong>+01 2222 364/(+91)01 2345 6537 </p>
+       <p><strong>Hours: </strong>10:00 - 11:00, Mon - Sat</p>
+       <div class="follow">
+        <h4>Follow us</h4>
+        <div class="icon">
+          <i class="fab fa-facebook-f"></i>
+           <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+             <i class="fab fa-pinterest-p"></i>
+              <i class="fab fa-youtube"></i>
+        </div>
+       </div>
+
+      </div>
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About us</a>
+         <a href="#">Delivery Information</a>
+          <a href="#">Privacy Policy</a>
+           <a href="#">Term & Conditions</a>
+            <a href="#">Contact us</a>
+      </div>
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign in</a>
+         <a href="#">View Cart</a>
+          <a href="#">My Wishlist </a>
+           <a href="#">Track My Order</a>
+            <a href="#">Help us</a>
+      </div>
+      <div class="col install">
+        <h4>Install app</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img class="pay" src="img/pay/app.jpg" alt="">
+          <img class="play" src="img/pay/play.jpg" alt="">
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="img/pay/pay.png" alt="">
+      </div>
+      <div class="copyright">© 2026 Cara all rights reserved</div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
